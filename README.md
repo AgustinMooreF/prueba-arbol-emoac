@@ -79,3 +79,9 @@ Si estás ejecutando con Docker, puedes detener la aplicación con:
     ```bash
     docker-compose down
     ```
+
+## Para obtener los Ids de los nodos puedes:
+
+- Utilizar un cliente de mongo como compass y revisar la tabla.
+- Ir a la conosla de docker y consultar por consola directamente.
+- Revisar la consola que deja el docker-compose up y sacar los ids del log que devuelve el seed.
